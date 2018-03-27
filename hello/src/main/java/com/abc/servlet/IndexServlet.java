@@ -27,6 +27,8 @@ public class IndexServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.setContentType("text/html;charset=UTF-8");
 		response.getWriter().append("Served at: hello!world!你好世界00000！").append(request.getContextPath());
+		System.out.println("控制台打印请求servlet");
+		
 	}
 
 	/**

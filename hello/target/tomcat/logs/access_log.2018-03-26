@@ -1,0 +1,2 @@
+127.0.0.1 - - [26/Mar/2018:10:37:53 +0800] "GET /hello/IndexServlet HTTP/1.1" 200 29 http-bio-8088-exec-1 26
+127.0.0.1 - - [26/Mar/2018:11:18:31 +0800] "GET /hello/IndexServlet HTTP/1.1" 200 44 http-bio-8088-exec-2 38

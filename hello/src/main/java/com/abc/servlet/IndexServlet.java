@@ -33,6 +33,7 @@ public class IndexServlet extends HttpServlet {
 		response.setContentType("text/html;charset=UTF-8");
 		response.getWriter().append("Served at: hello!world!你好世界！"+date).append(request.getContextPath());
 		System.out.println("控制台打印请求servlet");
+		System.out.println("控制台打印请求servlet"+date);
 		
 	}
 
